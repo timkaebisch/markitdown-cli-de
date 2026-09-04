@@ -304,7 +304,7 @@ rm -rf ~/.markitdown
 Für eine neue Installation:
 
 ```bash
-git clone <link> ~/.markitdown
+git clone https://github.com/timkaebisch/markitdown-cli-de.git ~/.markitdown
 brew install python
 brew install pipx
 pipx ensurepath
