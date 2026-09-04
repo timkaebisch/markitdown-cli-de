@@ -2,6 +2,16 @@
 
 Ein kleines CLI-Tool für macOS, das [Microsoft MarkItDown](https://github.com/microsoft/markitdown) verwendet, um Dokumente in Markdown-Dateien umzuwandeln.
 
+## Warum MarkItDown?
+
+MarkItDown wandelt Dokumente wie **PDF, Word, PowerPoint oder Excel** in **Markdown** um. Dadurch liegen die Inhalte in einer einfachen, strukturierten Textform vor, die von **KI-Systemen und LLMs** leichter verarbeitet werden kann.
+
+## Hinweise
+
+Die Konvertierung ist nicht immer perfekt. **Tabellen, Bilder, Formatierungen oder komplexe Strukturen** können verändert werden oder verloren gehen. Bei wichtigen Dokumenten sollte die erzeugte `.md`-Datei daher kurz überprüft werden.
+
+Bei **gescannten PDFs** ist häufig zusätzliche **OCR-Texterkennung** notwendig (in diesem Projekt nicht enthalten). Da ein Scan meist nur aus Bildern besteht, kann MarkItDown den enthaltenen Text in solchen Fällen **meist nicht erkennen bzw. nicht konvertieren**.
+
 ## Installation
 
 ### 1. Repository klonen
