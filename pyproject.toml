@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markitdown-cli"
+version = "0.1.0"
+description = "Simple CLI wrapper around Microsoft MarkItDown"
+requires-python = ">=3.10"
+dependencies = [
+    "markitdown[all]"
+]
+
+[project.scripts]
+md = "md.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
